@@ -1,37 +1,37 @@
 [
-    {
-        "id": 1,
-        "title" : "Metas a largo plazo",
-        "content": "espero poder llegar a ser un gran profesional que de grandes aportes al mundo de la tecnologia tal como lo hicieron varios de mis grandes idilos como: Linus Tovalds, Richard Stallman, Guido van Rossum, Gary McKinnon o kevin Mitnick (alias: El Condor) "
-    },
-    {
-        "id": 2,
-        "title" : "Metas a mediano plazo",
-        "content": "con gran esfuerzo espero poder terminar mi carrera como lincenciado en informatica poder especializarme y conocer los rincones de la tecnologia para poder sacarle el provecho a todos mis conocimientos adquiridos hasta la fecha, tambien haspiro dentro de poco poder comprar vienes inmuebles y propiedades, tener una gran familia y ayudar a toda mi familia "
-    },
-    {
-        "id": 3,
-        "title" : "Metas a corto plazo",
-        "content": "quiero conseguir un gran empleo que me ayude a conquistar todas mi metas a mediano y larga plazo, dar aportes de gran valor a las empresas que confien en mis talentos y me permitan implementar, aprender y mantener lo que haga"
-    },
-    {
-        "id":4,
-        "title": "Temas de Interes",
-        "content": "Desarrollo de software backEnd y FrontEnd y Sirber seguridad"
-    },
-    {
-        "id": 5,
-        "title": "Que me gusta hacer en mis tiempos libres",
-        "content": "me gusta mucho estudiar temas de gran interes, jugar playStation, salir en bisicleta a recorrer grandes distancias y compartir con amigos"
-    },
-    {
-        "id": 6,
-        "title": "Tecnologias que me apacionan",
-        "content": "me gusta mucho aprender sobre: Linux, AWS, Google Cloud, C#, C++, C, Java, .NET y mas"
-    },
-    {
-        "id":7,
-        "title": "Tecnologias que manejo",
-        "content": " manejo: React, Angular, Ionic, Node.js, JavaScript, TypeScript, Nest.js, PostgreSQL, MySQL, FireBase, MongoDB, SQL, Sequelizer, TypeORM, Git-HUb, Git, "
-    }
+  {
+    "id": 1,
+    "title": "Metas a largo plazo",
+    "content": "Espero poder llegar a ser un gran profesional que haga grandes aportes al mundo de la tecnología, tal como lo hicieron varios de mis grandes ídolos como Linus Torvalds, Richard Stallman, Guido van Rossum, Gary McKinnon o Kevin Mitnick (alias: El Cóndor)."
+  },
+  {
+    "id": 2,
+    "title": "Metas a mediano plazo",
+    "content": "Con gran esfuerzo, espero poder terminar mi carrera como licenciado en informática, especializarme y explorar los rincones de la tecnología para aprovechar al máximo todos mis conocimientos adquiridos hasta la fecha. También aspiro, en un futuro cercano, poder comprar bienes inmuebles y propiedades, formar una gran familia y ayudar a todos mis familiares."
+  },
+  {
+    "id": 3,
+    "title": "Metas a corto plazo",
+    "content": "Quiero conseguir un gran empleo que me ayude a alcanzar todas mis metas a mediano y largo plazo, proporcionando aportes de gran valor a las empresas que confíen en mis talentos y me permitan implementar, aprender y mantener lo que haga."
+  },
+  {
+    "id": 4,
+    "title": "Temas de Interes",
+    "content": "Desarrollo de software backend y frontend, y servicio de seguridad."
+  },
+  {
+    "id": 5,
+    "title": "Que me gusta hacer en mis tiempos libres",
+    "content": "Me gusta mucho estudiar temas de gran interés, jugar PlayStation, salir en bicicleta a recorrer grandes distancias y compartir con amigos."
+  },
+  {
+    "id": 6,
+    "title": "Tecnologias que me apacionan",
+    "content": "me gusta mucho aprender sobre: Linux, AWS, Google Cloud, C#, C++, C, Java, .NET y mas"
+  },
+  {
+    "id": 7,
+    "title": "Tecnologias que manejo",
+    "content": " manejo: React, Angular, Ionic, Node.js, JavaScript, TypeScript, Nest.js, PostgreSQL, MySQL, FireBase, MongoDB, SQL, Sequelizer, TypeORM, Git-HUb, Git, "
+  }
 ]
