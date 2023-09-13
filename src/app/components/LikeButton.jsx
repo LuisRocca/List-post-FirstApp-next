@@ -9,5 +9,5 @@ export default function LikeButton () {
         {liked ? '💕' : '❤'}
       </button>
     </>
-    )
+  )
 }
