@@ -1,17 +1,11 @@
 'use client'
-import LikeButton from '../components/LikeButton';
-import apirations from '../moks/apirations.json';
-import {useSort} from '../hooks/useSort';
+import LikeButton from '../components/LikeButton'
+import apirations from '../moks/apirations.json'
+import {useSort} from '../hooks/useSort'
 
 export default function Aspirations () {
-
   const { sortElements,activeSort } = useSort(apirations)
-   const handleChangeSort = () => {
-    activeSort()
-   }
-
-   
-
+  const handleChangeSort = () => activeSort()
   return (
         
       <ul className='bg-slate-800 p-4 rounded-lg shadow-md mb-5'>
@@ -26,5 +20,5 @@ export default function Aspirations () {
           </li>
         ))}
       </ul>
-  );
-};
+  )
+}
