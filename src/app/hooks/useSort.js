@@ -4,7 +4,7 @@ import { useMemo, useState } from "react";
 
 export function useSort(infoToSort) {
   const [sortCondition, setSortCondition] = useState(false);
-//  console.log(sortCondition)
+  //  console.log(sortCondition)
   const activeSort = () => {
     setSortCondition(!sortCondition);
   };
@@ -15,5 +15,5 @@ export function useSort(infoToSort) {
       : infoToSort;
   }, [infoToSort, sortCondition]);
 
-  return { sortElements , activeSort };
+  return { sortElements, activeSort };
 }

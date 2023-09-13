@@ -1,6 +1,6 @@
 import React from "react";
-import Aspirations from "../components/Aspirations"
-import InterestingVideos from "../components/InterestingVideos"
+import Aspirations from "../components/Aspirations";
+import InterestingVideos from "../components/InterestingVideos";
 
 export default function About() {
   return (

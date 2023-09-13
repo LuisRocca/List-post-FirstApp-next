@@ -3,19 +3,18 @@
 import LikeButton from "../components/LikeButton";
 import Link from "next/link";
 import { useSort } from "../hooks/useSort";
-import { usePaginate } from "../hooks/usePaginate"
+import { usePaginate } from "../hooks/usePaginate";
 
 export default function Posts({ posts }) {
-
   const { sortElements, activeSort } = useSort(posts);
   const { setCurrentPage, pagination, currentPage } = usePaginate(5);
-  
+
   const nextPage = () => {
-    setCurrentPage(currentPage + 5)
+    setCurrentPage(currentPage + 5);
   };
   const prevPage = () => {
-    if (currentPage <= 0) return
-    setCurrentPage(currentPage - 5)
+    if (currentPage <= 0) return;
+    setCurrentPage(currentPage - 5);
   };
 
   const postsPage = pagination(sortElements);
@@ -30,7 +29,7 @@ export default function Posts({ posts }) {
         onClick={handleChangeSort}
       >
         Sort
-      </button>    
+      </button>
       <button
         className="mb-5 mr-5 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
         onClick={prevPage}
