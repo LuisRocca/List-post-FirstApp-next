@@ -2,8 +2,7 @@ import Link from 'next/link'
 import React from 'react'
 import { getPost } from '../../service/httpServices'
 
-export default async function Post({ children, params }) {
-  
+export default async function Post ({ children, params }) {
   const { id } = params
   const posts = await getPost(id)
   return (
