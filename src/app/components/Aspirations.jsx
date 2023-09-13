@@ -6,7 +6,7 @@ import { useSort } from '../hooks/useSort'
 export default function Aspirations () {
   const { sortElements, activeSort } = useSort(apirations)
   const handleChangeSort = () => activeSort()
-  return (     
+  return (    
     <ul className='bg-slate-800 p-4 rounded-lg shadow-md mb-5'>
       <button className='mb-5 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded' onClick={handleChangeSort}>Sort</button>
       {sortElements.map((apiration) => (
