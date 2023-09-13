@@ -1,1 +1,1 @@
-export default function PostsPage() { return null }
+export default function PostsPage( ) { return null }
