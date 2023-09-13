@@ -2,6 +2,7 @@ import './globals.css'
 import type { Metadata } from 'next'
 import { Montserrat } from 'next/font/google'
 import { Navigation } from './components/Navigation'
+import React from 'react'
 
 // If loading a variable font, you don't need to specify the font weight
 const inter = Montserrat({ subsets: ['latin'] })
@@ -12,7 +13,7 @@ export const metadata: Metadata = {
 }
 
 export default function RootLayout ({
-  children,
+  children
 }: {
   children: React.ReactNode
 }) {
