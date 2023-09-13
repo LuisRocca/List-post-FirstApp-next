@@ -1,13 +1,13 @@
-import Link from 'next/link';
+import Link from 'next/link'
 const links = [
   { label: 'Home', route: '/' },
   { label: 'About', route: '/about' },
-  { label: 'Posts', route: '/posts' },
-];
+  { label: 'Posts', route: '/posts' }
+]
 
-export function Navigation() {
+export function Navigation () {
   return (
-    <header >
+    <header>
       <nav className='border rounded-sm border-sky-500 bg-blue-500  mb-4'>
       <div className='container mx-auto'>
         <ul className='flex justify-end space-x-4'>
@@ -22,5 +22,5 @@ export function Navigation() {
       </div>
       </nav>
     </header>
-  );
+  )
 }
