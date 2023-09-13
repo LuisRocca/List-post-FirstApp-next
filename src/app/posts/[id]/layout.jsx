@@ -1,12 +1,13 @@
-import Link from 'next/link';
-import React from 'react';
-import { getPost } from '../../service/httpServices';
+import Link from 'next/link'
+import React from 'react'
+import { getPost } from '../../service/httpServices'
 
 export default async function Post({ children, params }) {
-  const { id } = params;
-  const posts = await getPost(id);
+  
+  const { id } = params
+  const posts = await getPost(id)
   return (
-    <div className=''>
+    <div>
       <article key={posts.id}>
         <h2 className='text-xl font-semibold text-gray-600'>{posts.title}</h2>
         <p className='text-gray-600'>{posts.body}</p>
@@ -19,5 +20,5 @@ export default async function Post({ children, params }) {
         {children}
       </article>
     </div>
-  );
+  )
 }
