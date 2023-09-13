@@ -32,13 +32,7 @@ export default function InterestingVideos () {
       </button>
       {postsPage.map((video) => (
         <li key={video.id} className='mb-5 max-w-xs text-center'>
-          <iframe
-            width='360'
-            height='115'
-            src={video.URLVideo}
-            title={`${video.title}`}
-            allow='accelerometer autoplay clipboard-write encrypted-media gyroscope picture-in-picture web-share'
-          ></iframe>
+          <iframe width='360' height='115' src={video.URLVideo} title={`${video.title}`} allow='accelerometer autoplay clipboard-write encrypted-media gyroscope picture-in-picture web-share'></iframe>
           <h4 className='text-xl font-semibold mt-5'>{video.title}</h4>
         </li>
       ))}
