@@ -1,6 +1,6 @@
-"use client";
+'use client';
 
-import { useState } from "react";
+import { useState } from 'react';
 export function usePaginate(countPage) {
   const [currentPage, setCurrentPage] = useState(0);
   const pagination = (elements) => {

@@ -1,6 +1,6 @@
-"use client";
+'use client';
 
-import { useMemo, useState } from "react";
+import { useMemo, useState } from 'react';
 
 export function useSort(infoToSort) {
   const [sortCondition, setSortCondition] = useState(false);
