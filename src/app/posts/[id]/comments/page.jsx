@@ -1,7 +1,7 @@
 import { getCommentsOfPost } from '../../../service/httpServices'
 export default async function PostComments ({ params }) {
   const { id } = params
-  const comments = await getCommentsOfPost (id)
+  const comments = await getCommentsOfPost(id)
   return (
     <div className='bg-slate-800 p-4 rounded-lg shadow-md'>
       <ul>
