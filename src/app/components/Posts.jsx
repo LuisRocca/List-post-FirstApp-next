@@ -1,26 +1,26 @@
-'use client';
+'use client'
 
-import LikeButton from '../components/LikeButton';
-import Link from 'next/link';
-import { useSort } from '../hooks/useSort';
-import { usePaginate } from '../hooks/usePaginate';
+import LikeButton from '../components/LikeButton'
+import Link from 'next/link'
+import { useSort } from '../hooks/useSort'
+import { usePaginate } from '../hooks/usePaginate'
 
-export default function Posts({ posts }) {
-  const { sortElements, activeSort } = useSort(posts);
-  const { setCurrentPage, pagination, currentPage } = usePaginate(5);
+export default function Posts ({ posts }) {
+  const { sortElements, activeSort } = useSort(posts)
+  const { setCurrentPage, pagination, currentPage } = usePaginate(5)
 
   const nextPage = () => {
-    setCurrentPage(currentPage + 5);
-  };
+    setCurrentPage(currentPage + 5)
+  }
   const prevPage = () => {
-    if (currentPage <= 0) return;
-    setCurrentPage(currentPage - 5);
-  };
+    if (currentPage <= 0) return
+    setCurrentPage(currentPage - 5)
+  }
 
-  const postsPage = pagination(sortElements);
+  const postsPage = pagination(sortElements)
   const handleChangeSort = () => {
-    activeSort();
-  };
+    activeSort()
+  }
 
   return (
     <section>
@@ -47,7 +47,7 @@ export default function Posts({ posts }) {
           className='bg-slate-800 p-4 rounded-lg shadow-md mb-5'
           key={post.id}
         >
-          <Link href={'/posts/[id]'} as={`/posts/${post.id}`}>
+          <Link href={`/posts/${post.id}`}>
             <h2 className='text-xl font-semibold'>{post.title}</h2>
             <p className='text-gray-600'>{post.body}</p>
           </Link>
@@ -55,5 +55,5 @@ export default function Posts({ posts }) {
         </article>
       ))}
     </section>
-  );
+  )
 }
